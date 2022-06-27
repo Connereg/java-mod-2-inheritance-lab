@@ -13,6 +13,25 @@ public class MTGPlayer {
         this.hasFavoriteFormat = hasFavoriteFormat;
 
     }
+    public String getPlayerName() {
+        return this.playerName;
+    }
+
+    public boolean getHasADeck() {
+        return this.hasADeck;
+    }
+
+    public int getPlayerAge() {
+        return this.playerAge;
+    }
+
+    public String getFavoriteColor() {
+        return this.favoriteCardColor;
+    }
+
+    public String getFavoriteFormat() {
+        return this.hasFavoriteFormat;
+    }
 
     public String introducePlayer() {
         String intro = "Hello, my name is " + this.playerName;
